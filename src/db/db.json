@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Generic Granite Cheese",
+    "price": "679.99",
+    "category": "Shoes"
+  },
+  {
+    "name": "Ergonomic Bronze Chair",
+    "price": "181.79",
+    "category": "Baby"
+  },
+  {
+    "name": "Tasty Wooden Car",
+    "price": "443.19",
+    "category": "Jewelry"
+  },
+  {
+    "name": "Unbranded Frozen Ball",
+    "price": "684.47",
+    "category": "Electronics"
+  },
+  {
+    "name": "Gorgeous Plastic Salad",
+    "price": "451.60",
+    "category": "Jewelry"
+  },
+  {
+    "name": "Luxurious Granite Pants",
+    "price": "752.59",
+    "category": "Beauty"
+  },
+  {
+    "name": "Elegant Fresh Towels",
+    "price": "820.79",
+    "category": "Books"
+  },
+  {
+    "name": "Ergonomic Fresh Salad",
+    "price": "386.70",
+    "category": "Jewelry"
+  },
+  {
+    "name": "Electronic Frozen Keyboard",
+    "price": "607.69",
+    "category": "Jewelry"
+  },
+  {
+    "name": "Recycled Steel Keyboard",
+    "price": "302.41",
+    "category": "Music"
+  }
+]
