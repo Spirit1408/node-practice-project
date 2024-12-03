@@ -1,20 +1,28 @@
 {
-	"name": "practice-project",
+	"name": "node-practice-project",
 	"version": "1.0.0",
-	"main": "index.js",
+	"description": "",
 	"type": "module",
+	"main": "src/index.js",
 	"scripts": {
-		"generate-products": "node src/scripts/generateProducts.js",
-		"filter-by-min-price": "node src/scripts/getProductsByMinPrice.js",
-		"search-by-name": "node src/scripts/getProductByName.js",
-		"total-price": "node src/scripts/getTotalPrice.js",
-		"remove-desc-prop": "node src/scripts/removeDescProterty.js"
+		"lint": "eslint src/**/*.js",
+		"start": "node ./src/index.js",
+		"dev": "nodemon src/index.js"
 	},
 	"keywords": [],
-	"author": "Oleh Shalashov <spirit14081992@gmail.com>",
+	"author": "Oleh Shalashov",
 	"license": "ISC",
-	"description": "",
+	"devDependencies": {
+		"@eslint/js": "^9.3.0",
+		"eslint": "^9.3.0",
+		"globals": "^15.3.0",
+		"nodemon": "^3.1.2"
+	},
 	"dependencies": {
-		"@faker-js/faker": "^9.2.0"
+		"cors": "^2.8.5",
+		"dotenv": "^16.4.5",
+		"express": "^4.19.2",
+		"http-errors": "^2.0.0",
+		"mongoose": "^8.4.0"
 	}
 }
